@@ -1,7 +1,7 @@
 Hey! Welcome to codebase behind my portfolio site. Seeing you here must mean you like my portfolio and are interested in the tech behind it.
 Well, thank you! I'm proud to show you my processes, failures and successes in their full glory. Let's dive right in.
 
-## The Idea
+# The Idea
 
 I've had this idea about moving and morphing stars into various zodiac-esque objects in the background of a website for a while now.
 I've been interested in ThreeJS for a while now, but i didn't know *where* to implement this. 
@@ -23,7 +23,7 @@ The rest is just coming up with everything I want to be on the website.
 At least thats what I think (and hope) it will turn out like. 
 I wrote this whole paragraph before even writing a single line of code.
 
-## Choosing the tech stack
+# Choosing the tech stack
 
 NodeJS, TypeScript and NextJS for the frontend are no-brainers. 
 
@@ -44,3 +44,10 @@ Honorable mentions:
 As I want to learn stuff (especially ThreeJS), I wasn't blindly copy-pasting stuff from ChatGPT and tried to do most of the things by myself or with guidance from ChatGPT.
  
 
+# Building the starry night
+
+I should have probably started with a frame for the website, the sections and working out the structure and look the details of the Website before creating the navbar and background.
+But that would be lame. 
+And I probably would have lost my motivation half-way through.
+
+## Setting up ThreeJS in NextJS
