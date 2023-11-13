@@ -23,3 +23,24 @@ The rest is just coming up with everything I want to be on the website.
 At least thats what I think (and hope) it will turn out like. 
 I wrote this whole paragraph before even writing a single line of code.
 
+## Choosing the tech stack
+
+NodeJS, TypeScript and NextJS for the frontend are no-brainers. 
+
+- NextJS has been my go-to option for quite some time now. 
+I'm amazed anew every time I find out about another useful feature or update.
+
+- For TypeScript it's pretty simple: Once you go TypeScript, you won't go back to plain, old, type-unsafe JavaScript.
+
+- As for the starry night nav/background I chose to use ThreeJS, as it's a 3D library with tons of super cool features.
+
+- Hosting is done on Firebase, as it's completely free, if you don't have much traffic, which I won't expect.
+
+- And obviously I use GitHub for source controlling.
+
+Honorable mentions: 
+
+- ChatGPT for always having my back, explaining stuff concisely and simply saving me **lots** of time. 
+As I want to learn stuff (especially ThreeJS), I wasn't blindly copy-pasting stuff from ChatGPT and tried to do most of the things by myself or with guidance from ChatGPT.
+ 
+
