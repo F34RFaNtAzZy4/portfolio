@@ -51,3 +51,9 @@ But that would be lame.
 And I probably would have lost my motivation half-way through.
 
 ## Setting up ThreeJS in NextJS
+
+@react-three/fiber is an awesome three library for react. With this library you can create JSX components for you 3D models and integrate them seamless into your react project.
+I created a Canvas and set up a camera in it.
+Stars (or at that time white blobs) where the first thing I placed into the canvas. To get a feel for the space and performance, I created 100 Stars with random locations.
+At first I couldn't see any of them, so I put in the axesHelper to visualize my camera position. I adjusted the camera a bit by moving back in the z-axis but still nothing.
+Then I realized I couldn't see shit, because there was no light. So I added lights. Lo and behold, the blobs were there.

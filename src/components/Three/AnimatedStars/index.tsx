@@ -1,26 +1,15 @@
-import { GroupProps, useFrame } from '@react-three/fiber';
-import Star from '../Star/index';
-import { MutableRefObject, Ref, useRef } from 'react';
-import { Group, Object3DEventMap } from 'three';
+import { StarProps } from '../Star/index';
+import { ReactElement } from 'react';
+import React from 'react';
 
 type AnimatedStarsProps = {
-    children : typeof Star[]
+    children : ReactElement<StarProps>[]
 }
 
 export default function AnimatedStars({children}: AnimatedStarsProps) {
-  // Reference to the star group
-  const ref = useRef<Group<Object3DEventMap>>() as MutableRefObject<Group<Object3DEventMap> | null>;
-  useFrame(() => {
-    if(!ref?.current) return
-    // Rotate or move the star group
-    ref.current.rotation.y += 0.001;
-  });
-
   return (
-    <group ref={ref}>
-      {children.map((Star, index) => (
-        <Star key={index} distance={3} />
-      ))}
+    <group>
+      {children.map((child, index) => React.cloneElement(child, { key: index, distance: 3 }))}
     </group>
   );
 };
